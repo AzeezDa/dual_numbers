@@ -1,7 +1,8 @@
 #[allow(dead_code)]
 mod dual_numbers;
+mod functions;
 
-pub use self::{dual_numbers::*, util::*};
+pub use self::{dual_numbers::*, util::*, functions::*};
 
 #[allow(dead_code)]
 #[allow(unused_macros)]
